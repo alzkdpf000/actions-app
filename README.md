@@ -6,6 +6,7 @@
 - 서버별 환경 변수 분리
 
 ---
+<br>
 
 ## 🔧 GitHub Actions 설정
 
@@ -33,7 +34,9 @@
 
 
 
----
+
+
+<br>
 
 ### ⚙️ 2. Workflow 파일 및 Dockerfile 파일 생성하기
 
@@ -43,6 +46,9 @@
 |`Dockerfile`| Docker 빌드 설정| 📦 [보기](https://github.com/alzkdpf000/actions-app/blob/master/Dockerfile)|
 
 
+
+
+<br>
 
 ##  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="36" height="36"/> 도커 설치하기
 
@@ -90,6 +96,9 @@ docker images
 | `ls` | 현재 디렉토리 파일 목록 확인 |
 | `sudo rm -rf [폴더명]` | 로컬 디렉토리 `[폴더명]` 강제 삭제 |
 
+<br>
+
+---
 
 ## 🧩 Troubleshooting
 
@@ -112,7 +121,7 @@ docker images
 
 ![](https://velog.velcdn.com/images/alzkdpf000/post/35da0019-99b7-4d25-884d-b5911c60207b/image.png)
 
-### 2.2 해결
+### 2.1 해결
 secerts에 넣은 값이 공백을 가지는 키가 있어서 (ex. 1234 2132) 오류가 발생했다. 그런 경우 
 <code>AWS_REGION=${{ secrets.AWS_REGION }}</code> --> <br>
 
